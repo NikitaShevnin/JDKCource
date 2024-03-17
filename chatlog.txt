@@ -1,2 +1,2 @@
-User1: user1
+User1: exUser1
 User2: user 2

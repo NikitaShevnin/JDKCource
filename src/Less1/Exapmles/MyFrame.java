@@ -9,6 +9,9 @@ import java.awt.event.ActionListener;
  */
 
 public class MyFrame extends JFrame {
+    public static void main(String[] args) {
+        new MyFrame();
+    }
     public MyFrame() {
         JButton button = new JButton("Нажми меня");
 
@@ -20,14 +23,10 @@ public class MyFrame extends JFrame {
         });
 
         add(button);
-
         setTitle("Мое окно");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
 
-    public static void main(String[] args) {
-        new MyFrame();
-    }
 }
